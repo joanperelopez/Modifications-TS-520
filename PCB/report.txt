@@ -1,0 +1,9 @@
+Trazado a '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-F_Cu.gbr'.
+Trazado a '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-B_Cu.gbr'.
+Trazado a '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-F_Silkscreen.gbr'.
+Trazado a '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-B_Silkscreen.gbr'.
+Trazado a '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-F_Mask.gbr'.
+Trazado a '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-B_Mask.gbr'.
+Trazado a '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-Edge_Cuts.gbr'.
+Archivo de trabajo Gerber '/Users/perelopezveraguas/Documents/Proyectos de RADIOFRECUENCIA/MODIFICACIONES TS-520 /PCB/GERBER/mod_TS520-job.gbrjob' creado.
+Info: Listo.
