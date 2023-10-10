@@ -4,7 +4,7 @@
 I Started reparing and adjusting my Kenwood transceiver TS-520, but I saw some articles about how to create a device to read the frequency of operation. I decide to include it. I continued including new features as: s-meter, band indicator, spectrum frequency, mode of operation and some others indicators.
 As appeared in the picture I use two microcontrollers: one for display and interface, and the second one for the FFT.
 
-This device is inspired in the work os Stephen Leander KV6O, but I changed everything.
+This device is inspired in the work of Stephen Leander KV6O, but I changed everything.
 
 You can use all the documentation that appears in the repository as long as it is not used for commercial purposes.
 
