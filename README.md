@@ -14,7 +14,8 @@ The experiments for the design of the electronic circuits and the microcontrolle
 
 This is the final appearance of the circuit in the TOP side.
 
-![Bottom_Assbly](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/0bb89d17-75cb-4def-ac3a-2e14f99db1f1)
+
+![Bottom_Assbly](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/a4aa84f0-b00c-4b37-8cf3-96827e404165)
 
 
 This is the final appearance of the circuit in the BOTTOM side.
