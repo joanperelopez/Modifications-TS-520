@@ -1,7 +1,8 @@
 # Modifications-TS-520
 
 
-I Started reparing and adjusting my Kenwood transceiver TS-520, but I saw some articles about how to create a device to read the frequency of operation. I continued including new features as: s-meter, band indicator, spectrum frequency, mode of operation and some others indicators.
+I Started reparing and adjusting my Kenwood transceiver TS-520, but I saw some articles about how to create a device to read the frequency of operation. I decide to include it. I continued including new features as: s-meter, band indicator, spectrum frequency, mode of operation and some others indicators.
+As appeared in the picture I use two microcontrollers: one for display and interface, and the second one for the FFT.
 
 
 ![WhatsApp Image 2023-10-10 at 12 25 15-3](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/7e748904-751d-448a-bb56-e87542fa320c)
