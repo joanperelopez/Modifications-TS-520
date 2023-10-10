@@ -1,0 +1,23 @@
+Informe de ERC (martes, 10 de mayo de 2022, 16:37:20, codificación UTF8)
+
+***** Hoja /
+[lib_symbol_issues]: Symbol 'ADT1-1' has been modified in library 'Transformer'.
+    ; Severity: warning (excluded)
+    @(139,70 mm, 147,32 mm): Símbolo TR2 [ADT1-1]
+[lib_symbol_issues]: Symbol 'FST3253' has been modified in library 'FST3253'.
+    ; Severity: warning (excluded)
+    @(247,65 mm, 59,69 mm): Símbolo U3 [FST3253]
+[lib_symbol_issues]: Symbol 'ADT1-1' has been modified in library 'Transformer'.
+    ; Severity: warning (excluded)
+    @(48,26 mm, 134,62 mm): Símbolo TR1 [ADT1-1]
+[lib_symbol_issues]: Symbol 'Rotary_Encoder_Switch-Device' has been modified in library 'SDR_1-rescue'.
+    ; Severity: warning (excluded)
+    @(165,10 mm, 234,95 mm): Símbolo SW1 [Rotary_Encoder_Switch-Device]
+[lib_symbol_issues]: Symbol 'Jack-DC' has been modified in library 'Connector'.
+    ; Severity: warning (excluded)
+    @(33,02 mm, 204,47 mm): Símbolo J8 [Jack-DC]
+[lib_symbol_issues]: Symbol 'L7805' has been modified in library 'Regulator_Linear'.
+    ; Severity: warning (excluded)
+    @(88,90 mm, 201,93 mm): Símbolo U9 [L7805]
+
+**Mensajes ERC: 6. Errores0, Avisos 6
