@@ -46,4 +46,5 @@ It is not possible to do the entire process on a single ATmega328P since the FFT
 
 
 Two shields are provided for the RF sections of the receiver. These should be fitted only after both sections are tested and working correctly.
-
+Connectors J7 and J12 are used to program ATmega328P microcontrollers.
+Connectors J5 and J6 connect to the IL9341 2.4" display.
