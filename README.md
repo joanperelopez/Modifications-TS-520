@@ -40,3 +40,8 @@ The AGC (Automatic Gain Control) signal is conditioned and input into the arduin
 
 The RF signal before the SSB and CW filters enters a receiver that incorporates a Tayloe detector. Once detected, the baseband signal in I/Q format enters the second Arduino where it is processed and the FFT is done. This frequency information is transmitted to the first Arduino that will display it on the screen.
 It is not possible to do the entire process on a single Arduino since the FFT consumes almost all the processor resources.
+
+
+![Schematic](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/55cd9e32-1d0c-4cf3-96bf-c9d6cb068cca)
+
+
