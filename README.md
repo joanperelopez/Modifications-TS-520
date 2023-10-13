@@ -6,7 +6,7 @@ As appeared in the picture I use two microcontrollers: one for display and inter
 
 This device is inspired in the work of Stephen Leander KV6O, but I changed everything.
 
-On the final PCBs you can see that there are terminals coded from JP1 to JP8. Once the PCB components are assembled, these terminals must be shorted together with a drop of solder. The grounds of the different circuits are isolated from each other and are only connected to the general ground at these points (star ground).
+On the final PCBs you can see that there are terminals coded from JP1 to JP8. Once the PCB components are assembled, these terminals must be shorted each two with a drop of solder. The grounds of the different circuits are isolated from each other and are only connected to the general ground at these points (star ground).
 The VCCs are configured in the same way.
 
 You can use all the documentation that appears in the repository as long as it is not used for commercial purposes.
