@@ -28,18 +28,18 @@ This is the final appearance of the circuit in the TOP side.
 This is the final appearance of the circuit in the BOTTOM side.
 
 The way to calculate the frequency at which the TS-520 emits and receives is a mathematical operation between three different frequencies: CAR which is the frequency of the beat oscillator. VFO which, as its name indicates, is the variable frequency oscillator signal and HET which is a fixed signal from a quartz oscillator and which is different in each band.
-Each of these frequencies are amplified and applied to an Arduino that makes the readings, the mathematical operations and finally displays the frequency on a graphic screen. 
+Each of these frequencies are amplified and applied to an ATmega328P that makes the readings, the mathematical operations and finally displays the frequency on a graphic screen. 
 
 The band is automatically displayed using the HET information.
 
 The operating mode (USB, LSB and CW) is identified by the frequency of the CAR input and is displayed on the corresponding indicator.
 
-The information from the red LEDs that the TS-520 has is input into the Arduino and shown on the display.
+The information from the red LEDs that the TS-520 has is input into the ATmega328P and shown on the display.
 
-The AGC (Automatic Gain Control) signal is conditioned and input into the arduino to display the signal intensity (s-meter).
+The AGC (Automatic Gain Control) signal is conditioned and input into the ATmega328P to display the signal intensity (s-meter).
 
-The RF signal before the SSB and CW filters enters a receiver that incorporates a Tayloe detector. Once detected, the baseband signal in I/Q format enters the second Arduino where it is processed and the FFT is done. This frequency information is transmitted to the first Arduino that will display it on the screen.
-It is not possible to do the entire process on a single Arduino since the FFT consumes almost all the processor resources.
+The RF signal before the SSB and CW filters enters a receiver that incorporates a Tayloe detector. Once detected, the baseband signal in I/Q format enters the second ATmega328P where it is processed and the FFT is done. This frequency information is transmitted to the first ATmega328P that will display it on the screen.
+It is not possible to do the entire process on a single ATmega328P since the FFT consumes almost all the processor resources.
 
 
 ![Schematic](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/55cd9e32-1d0c-4cf3-96bf-c9d6cb068cca)
