@@ -45,3 +45,5 @@ It is not possible to do the entire process on a single Arduino since the FFT co
 ![Schematic](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/55cd9e32-1d0c-4cf3-96bf-c9d6cb068cca)
 
 
+Two shields are provided for the RF sections of the receiver. These should be fitted only after both sections are tested and working correctly.
+
