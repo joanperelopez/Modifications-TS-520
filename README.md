@@ -30,6 +30,8 @@ This is the final appearance of the circuit in the BOTTOM side.
 The way to calculate the frequency at which the TS-520 emits and receives is a mathematical operation between three different frequencies: CAR which is the frequency of the beat oscillator. VFO which, as its name indicates, is the variable frequency oscillator signal and HET which is a fixed signal from a quartz oscillator and which is different in each band.
 Each of these frequencies are amplified and applied to an Arduino that makes the readings, the mathematical operations and finally displays the frequency on a graphic screen. The band is automatically displayed using the HET information.
 
+The operating mode (USB, LSB and CW) is identified by the frequency of the CAR input and is displayed on the corresponding indicator.
+
 The AGC (Automatic Gain Control) signal is conditioned and input into the arduino to display the signal intensity (s-meter).
 
 The RF signal before the SSB and CW filters enters a receiver that incorporates a Tayloe detector. Once detected, the baseband signal in I/Q format enters the second Arduino where it is processed and the FFT is done. This frequency information is transmitted to the first Arduino that will display it on the screen.
