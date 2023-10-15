@@ -38,8 +38,8 @@ The information from the red LEDs that the TS-520 has is input into the ATmega32
 
 The AGC (Automatic Gain Control) signal is conditioned and input into the ATmega328P to display the signal intensity (s-meter).
 
-The RF signal before the SSB and CW filters enters a receiver that incorporates a Tayloe detector. Once detected, the baseband signal in I/Q format enters the second ATmega328P where it is processed and the FFT is done. This frequency information is transmitted to the first ATmega328P that will display it on the screen.
-It is not possible to do the entire process on a single ATmega328P since the FFT consumes almost all the processor resources.
+The RF signal before the SSB and CW filters enters a RF receiver of 3,395MHz that incorporates a Tayloe detector. Once detected, the baseband signal in I/Q format enters the second ATmega328P where it is processed and the FHT is done. This frequency information is transmitted to the first ATmega328P that will display it on the screen. The FHT is like FFT but it uses only the real part, so the CPU load and the complexity is the half.
+It is not possible to do the entire process on a single ATmega328P since the FHT consumes almost all the processor resources.
 
 
 ![Schematic](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/55cd9e32-1d0c-4cf3-96bf-c9d6cb068cca)
