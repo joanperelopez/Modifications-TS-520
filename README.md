@@ -41,6 +41,12 @@ The AGC (Automatic Gain Control) signal is conditioned and input into the ATmega
 The RF signal before the SSB and CW filters enters a RF receiver of 3,395MHz that incorporates a Tayloe detector. Once detected, the baseband signal in I/Q format enters the second ATmega328P where it is processed and the FHT is done. This frequency information is transmitted to the first ATmega328P that will display it on the screen. The FHT is like FFT but it uses only the real part, so the CPU load and the complexity is the half.
 It is not possible to do the entire process on a single ATmega328P since the FHT consumes almost all the processor resources.
 
+![Captura de Pantalla 2023-10-26 a las 16 57 25](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/147d3cf2-c33a-49be-b79f-8b1ac1bb63d2)
+PBC layout
+
+![Captura de Pantalla 2023-10-26 a las 16 58 39](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/15684454-8abb-4a19-bb7f-6be26c31accf)
+
+PCB layout
 
 ![Schematic](https://github.com/joanperelopez/Modifications-TS-520/assets/73885181/55cd9e32-1d0c-4cf3-96bf-c9d6cb068cca)
 
